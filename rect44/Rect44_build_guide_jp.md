@@ -168,7 +168,7 @@ ISOエンターキーを使った48キーの場合のサンプル
 
 #### 書き込み
 BLE Micro Pro をUSBケーブルでPCにつなぐとUSBメモリを接続したときのように認識されるので、作成した CONFIG.JSN と KEYMAP.JSN を BLE Micro Pro 側にコピーしてください。
-![BMP](./img/bmp.jpg)
+![BMP](./img/bmp_01.jpg)
 上の図では CONFIG.JSN の "device_info" 中の "name" を rect44-3 としているのでそのように認識されています。
 
 CONFIG.JSN、KEYMAP.JSN は下記リンク先にもありますのでリネームしてご利用ください。  
