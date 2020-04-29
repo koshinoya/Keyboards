@@ -1,8 +1,6 @@
 # Rect44 ビルドガイド
-***
 
 ## 準備
-***
 
 ### 同梱パーツの確認
 - 基板…1枚
@@ -61,7 +59,6 @@
 
 
 ## ファームウェア
-***
 
 おすすめは[「のぎけす屋」](https://nogikes.booth.pm/)さんの[ BLE Micro Pro ](https://nogikes.booth.pm/items/1177319)の使用です。  
 ファームウェアをビルドする環境の構築も必要ありませんのでお手軽で、かつ、Bluetooth接続ができるようになります。
@@ -168,7 +165,7 @@ ISOエンターキーを使った48キーの場合のサンプル
 
 #### 書き込み
 BLE Micro Pro をUSBケーブルでPCにつなぐとUSBメモリを接続したときのように認識されるので、作成した CONFIG.JSN と KEYMAP.JSN を BLE Micro Pro 側にコピーしてください。
-![BMP](./img/bmp_01.jpg)
+![BMP files](./img/bmp_01.jpg)
 上の図では CONFIG.JSN の "device_info" 中の "name" を rect44-3 としているのでそのように認識されています。
 
 CONFIG.JSN、KEYMAP.JSN は下記リンク先にもありますのでリネームしてご利用ください。  
@@ -187,11 +184,10 @@ https://github.com/koshinoya/BLE-Micro-Pro/tree/add_rect44_kb/AboutDefaultFirmwa
 私はここを参考にして環境構築しました。
 
 #### カスタマイズ
-https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard にファームウェア作成用の情報を置きました。適宜編集してご利用ください。
+https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rect44 にファームウェア作成用の情報を置きました。適宜編集してご利用ください。
 
 
 ## 組み立て
-***
 
 ### キースイッチ用ダイオード
 
