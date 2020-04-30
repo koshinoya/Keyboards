@@ -64,7 +64,10 @@
 ファームウェアをビルドする環境の構築も必要ありませんのでお手軽で、かつ、Bluetooth接続ができるようになります。
 
 ### BLE Micro Proを使用する場合
-CONFIG.JSN と KEYMAP.JSN を編集してカスタマイズします。  
+現在販売されている「ブートローダー v0.2版」を使用してください。以前のブートローダー版を使う場合はブートローダーのアップデートかファームウェアのビルドが必要です。
+
+「ブートローダー v0.2版」以降を使用する場合は、CONFIG.JSN と KEYMAP.JSN を編集してカスタマイズします。  
+
 
 #### CONFIG.JSN
 下記内容をコピペして CONFIG.JSN として任意の場所に保存してください。このファイルはキーマップが変わっても変更する必要はありません。
@@ -168,7 +171,7 @@ BLE Micro Pro をUSBケーブルでPCにつなぐとUSBメモリを接続した�
 ![BMP files](./img/bmp_01.jpg)
 上の図では CONFIG.JSN の "device_info" 中の "name" を rect44-3 としているのでそのように認識されています。
 
-CONFIG.JSN、KEYMAP.JSN は下記リンク先にもありますのでリネームしてご利用ください。  
+CONFIG.JSN、KEYMAP.JSN は下記リンク先にもありますのでリネームして御利用ください。  
 https://github.com/koshinoya/BLE-Micro-Pro/tree/add_rect44_kb/AboutDefaultFirmware/keyboards/rect44
 
 
@@ -184,7 +187,7 @@ https://github.com/koshinoya/BLE-Micro-Pro/tree/add_rect44_kb/AboutDefaultFirmwa
 私はここを参考にして環境構築しました。
 
 #### カスタマイズ
-https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rect44 にファームウェア作成用の情報を置きました。適宜編集してご利用ください。
+https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rect44 にファームウェア作成用の情報を置きました。適宜編集して御利用ください。
 
 
 ## 組み立て
@@ -223,8 +226,8 @@ https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rec
 ![bmp_02](./img/bmp_02.jpg)
 ![bmp_03](./img/bmp_03.jpg)
 
-次にコンスルーを取り付ける。このとき"BAT"側の列は"BAT"にかかり"B6"にかからない位置に取り付ける。反対側の列は"B5"にかかり"GND"にかからない位置に取り付ける。  
-また、コンスルー横の窓は同じ向きになるように取り付ける。
+次にコンスルーを取り付けます。このとき"BAT"側の列は"BAT"にかかり"B6"にかからない位置に、反対側の列は"B5"にかかり"GND"にかからない位置に取り付けてください。  
+また、コンスルー横の窓は同じ向きになるようにしてください。
 ![bmp_04](./img/bmp_04.jpg)
 
 BLE Micro Proをはめる
@@ -264,7 +267,7 @@ https://talpkeyboard.stores.jp/items/5c318309c2fc28537c505b45
 
 ![rect44_02](./img/rect44_02.jpg)
 
-Shiftキーのサイズが充実しておりISOエンターキーも付属しているため、本キーボードキットにお薦めです。
+Shiftキーのサイズが充実しておりISOエンターキーも付属しているため、本キーボードキットにおすすめです。
 
 
 ### 底板
@@ -272,5 +275,12 @@ Shiftキーのサイズが充実しておりISOエンターキーも付属して
 ![bt_plate_01](./img/bt_plate_01.jpg)
 ![bt_plate_02](./img/bt_plate_02.jpg)
 
-## 完成!
+## 完成
+これにて完成です。
 困ったことがあれば御連絡ください、できるだけ対応したいと思っています。（ネジを無くしたなどでもOKです！）
+
+また、このビルドガイドに間違いや追加情報があれば御連絡ください。（BOOTH経由もしくは作者witter:@KoshinoyaK）即時対応できないかもしれませんが御容赦ください。
+
+
+## 謝辞
+このビルドガイドを作成する際にnrtkbb氏の [uzu42ビルドガイド](https://github.com/nrtkbb/Keyboards/blob/master/uzu42/build_guide_jp.md) を参考にさせていただきました。ありがとうございました。
