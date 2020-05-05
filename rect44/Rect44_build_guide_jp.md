@@ -69,7 +69,7 @@
 ### BLE Micro Proを使用する場合
 現在販売されている「ブートローダー v0.2版」を使用してください。以前のブートローダー版を使う場合はブートローダーのアップデートかファームウェアのビルドが必要です。
 
-「ブートローダー v0.2版」以降を使用する場合は、CONFIG.JSN と KEYMAP.JSN を編集してカスタマイズします。  
+「ブートローダー v0.2版」以降を使用する場合は、CONFIG.JSN と KEYMAP.JSN を編集してカスタマイズし BLE Micro Proにコピーするだけです。  
 
 #### CONFIG.JSN
 下記内容をコピペして CONFIG.JSN として任意の場所に保存してください。このファイルはキーマップが変わっても変更する必要はありません。
@@ -96,8 +96,8 @@
 
 #### KEYMAP.JSN
 KEYMAP.JSNは選んだレイアウトに合わせてカスタマイズします。
-キーコードは[QMK Keycordes](https://docs.qmk.fm/#/keycodes)と同じです。  
-[BLE Micro Pro固有のキーコード](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/docs/edit_keymap_file.md#ble-micro-pro%E5%9B%BA%E6%9C%89%E3%81%AE%E3%82%AD%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89)もありますので適宜導入してください。
+キーコードは[ QMK Keycordes ](https://docs.qmk.fm/#/keycodes)と同じです。  
+[ BLE Micro Pro固有のキーコード ](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/docs/edit_keymap_file.md#ble-micro-pro%E5%9B%BA%E6%9C%89%E3%81%AE%E3%82%AD%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89)もありますので適宜導入してください。
 
 レイアウトにより使用する、しないが変わるキーは、CONFIG.JSN "layout" セクション中の"13","25","28","38","43","45","46","48"です。
 - "13"キー：ANSI配列での右上端のキーです。ISOリターンキーを使用したときには使用できません。
@@ -182,10 +182,10 @@ https://github.com/koshinoya/BLE-Micro-Pro/tree/add_rect44_kb/AboutDefaultFirmwa
 
 #### 環境の構築
 基本的にはここ  
-[The Complete Newbs Guide To QMK](https://docs.qmk.fm/#/newbs)  
+[ The Complete Newbs Guide To QMK ](https://docs.qmk.fm/#/newbs)  
 ですが、英語が苦手という方は  
 
-[QMK firmware ファームウェアの初歩の初歩　１](http://roudokuvip.hateblo.jp/entry/2018/04/29/013126)  
+[ QMK firmware ファームウェアの初歩の初歩　１ ](http://roudokuvip.hateblo.jp/entry/2018/04/29/013126)  
 がおすすめです。
 私はここを参考にして環境構築しました。
 
@@ -195,12 +195,12 @@ https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rec
 
 ## 組み立て
 ここからはハンダ付け作業を200カ所以上行います。  
-ハンダ作業に不慣れな方や不安を覚える方は、ゴッドはんだ株式会社さんが公開してくれている [WEB版　はんだ付け基礎講座](https://godhanda.co.jp/kouza/) を一通り読むことを推奨します。
+ハンダ作業に不慣れな方や不安を覚える方は、ゴッドはんだ株式会社さんが公開してくれている [ WEB版　はんだ付け基礎講座 ](https://godhanda.co.jp/kouza/) を一通り読むことを推奨します。
 
 ### キースイッチ用ダイオード
 |![diode_01](./img/diode_01.jpg)|
 | ---- |
-|基板上のダイオードマークの棒の位置とダイオードの線のある方向を合わせてハンダ付けします。あらかじめ片方のパッドに予備ハンダをしておき、そのパッドにハンダ付けしたあとに反対側をハンダ付けします。ここでもゴッドはんださんの[ 15 チップ部品のはんだ付け（表面実装）](https://godhanda.co.jp/blog/kisokouza15/)が参考になると思います。|
+|基板上のダイオードマークの棒の位置とダイオードの線のある方向を合わせてハンダ付けします。あらかじめ片方のパッドに予備ハンダをしておき、そのパッドにハンダ付けしたあとに反対側をハンダ付けします。ここでもゴッドはんださんの[ 15 チップ部品のはんだ付け（表面実装） ](https://godhanda.co.jp/blog/kisokouza15/)が参考になると思います。|
 
 ### ショットキーバリアダイオード
 |![ショットキーバリアダイオード](./img/parts_07.jpg)|![sdb_01](./img/sbd_01.jpg)
@@ -241,7 +241,7 @@ https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rec
 このハンダ付けしたものを基板端の"BAT"と"GND"を使わない位置（"B5"と"B6"を使用する位置）に取り付けます。  
 取り付けた後、BLE Micro Proと同様に脱落防止板を取り付けます。
 
-本キットは基板の色やその他使用している部品も黒を基調とした色なので、ProMicroを使用する方は [かぎざら屋さんのKamisori](https://booth.pm/ja/items/1500088) などもおすすめです。コンスルーにも対応してますので、ハンダ付けの必要もありません。
+本キットは基板の色やその他使用している部品も黒を基調とした色なので、ProMicroを使用する方は [ かぎざら屋さんのKamisori ](https://booth.pm/ja/items/1500088) などもおすすめです。コンスルーにも対応してますので、ハンダ付けの必要もありません。
 
 ### スタビライザ
 レイアウトに合わせたスタビライザーを取り付けてください。  
@@ -275,7 +275,7 @@ Shiftキーのサイズが充実しておりISOエンターキーも付属して
 これにて完成です。
 困ったことがあれば御連絡ください、できるだけ対応したいと思っています。（ネジを無くしたなどでもOKです！）
 
-また、このビルドガイドに間違いや追加情報があれば御連絡ください。（BOOTH経由もしくは作者witter:@KoshinoyaK）即時対応できないかもしれませんが御容赦ください。
+また、このビルドガイドに間違いや追加情報があれば御連絡ください。（BOOTH経由もしくは作者Twitter:@KoshinoyaK）即時対応できないかもしれませんが御容赦ください。
 
 
 ## 謝辞
