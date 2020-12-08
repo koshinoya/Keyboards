@@ -26,7 +26,7 @@
 - M2 ナベ小ネジ(PW,SW付き)…4本
 - クッションシール…4個
 
-| ![PCB](./img/parts_16.jpg) | ![ケース](./img/parts_02.jpg) | ![底板](./img/parts_17.jpg) | ![ProMicro脱落防止板](./img/parts_18.jpg) |
+| ![PCB](./img/parts_16.jpg) | ![ケース](./img/parts_02.jpg) | ![底板](./img/parts_17.jpg) | ![ProMicro脱落防止板](./img/parts_04.jpg) |
 | ---- | ---- | ---- | ---- |
 |基板|ステンレスケース|ステンレス底板|ProMicro脱落防止板|
 | ![ソケット](./img/parts_05.jpg) | ![ダイオード](./img/parts_06.jpg) | ![ショットキーバリアダイオード(SMDタイプ)](./img/parts_19.jpg) | ![ショットキーバリアダイオード(SMDタイプ)](./img/parts_20.jpg) |
@@ -247,7 +247,7 @@ https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rec
 |脱落防止板用のスペーサーを立てる。| |
 ![bmp_04](./img/bmp_04.jpg)|![bmp_05](./img/bmp_05.jpg)|
 |次にコンスルーを取り付けます。このとき"BAT"側の列は"BAT"にかかり"B6"にかからない位置に、反対側の列は"B5"にかかり"GND"にかからない位置に取り付けてください。また、コンスルー横の窓は同じ向きになるようにしてください。|BLE Micro Proをはめる。|
-|![bt_plate_03](./img/bmp_08.jpg)| |
+|![bmp_06](./img/bmp_06.jpg)| |
 |脱落防止板を取り付ける。| |
 
 ### ProMicro
@@ -286,7 +286,7 @@ https://yushakobo.jp/shop/kbdfans-r1-xda-dye-sub-60-65-keycaps/
 Shiftキーのサイズが充実しておりISOエンターキーも付属しているため、本キーボードキットにおすすめです。
 
 ### 底板
-|![bt_plate_03](./img/bt_plate_03.jpg)|![bt_plate_04](./img/bt_plate_04.jpg)|
+|![bt_plate_01](./img/bt_plate_01.jpg)|![bt_plate_04](./img/bt_plate_04.jpg)|
 | ---- | ---- |
 |単4乾電池を入れて、底板を付属の M3 低頭ネジで取り付け四隅にクッションシールを貼ります。|底板はきれいな仕上がりの面を外側にしてください。|
 
