@@ -192,8 +192,14 @@ https://github.com/sekigon-gonnoc/BLE-Micro-Pro/tree/master/AboutDefaultFirmware
 私はここを参考にして環境構築しました。
 
 #### カスタマイズ
-https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rect44 にファームウェア作成用の情報を置きました。適宜編集して御利用ください。
+~~https://github.com/koshinoya/qmk_firmware/tree/add_rect44_keyboard/keyboards/rect44 にファームウェア作成用の情報を置きました。適宜編集して御利用ください。~~  
 
+QMK Configurator が使用できますので、`KEYBOARD：`に`rect44`と入れればANSI 47 キーバージョンが表示されます。その他のレイアウトについては下記リンクから.jsonファイルをダウンロードして保存し、下図赤丸内のボタンを押して読み込ませてください。  
+ ![JSON Road button](./img/road_json_btn.png)  
+ANSI 44 key https://github.com/koshinoya/Keyboards/blob/master/rect44/json/ansi_44key.json  
+ISO 48 key https://github.com/koshinoya/Keyboards/blob/master/rect44/json/iso_48key.json
+
+そのほか手を入れていろいろしたい方は QMK にマージされているので御利用ください。
 
 ## 組み立て
 ここからはハンダ付け作業を200カ所以上行います。  
