@@ -193,7 +193,7 @@ https://github.com/sekigon-gonnoc/BLE-Micro-Pro/tree/master/AboutDefaultFirmware
 
 
 #### カスタマイズ
-QMK Configurator が使用できますので、`KEYBOARD：`に`rect44`と入れればANSI 47 キーバージョンが表示されます。  
+[ QMK Configurator ](https://config.qmk.fm/)が使用できますので、`KEYBOARD：`に`rect44`と入れればANSI 47 キーバージョンが表示されます。  
 その他のレイアウト(ANSI 47キー配列とISO 48キー配列)については下記内容をコピー＆ペーストし`.json`ファイルとして任意の場所に保存して、QMK Configurator 内の `QMK Keymap JSON ファイルをインポートボタン`を押して読み込ませてください。  
 ![JSON Road button](./img/road_json_btn.png)
 
