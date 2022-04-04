@@ -27,17 +27,25 @@ Also, there are numerous places where soldering must be done. To avoid burns or 
 - M3 low-head screws ... 6 + 1 spare
 - Cushion seal ... 4
 
-| ![PCB](./img/parts_16.jpg) | ![Case](./img/parts_02.jpg) | ![Bottom plate](./img/parts_17.jpg) | ![ProMicro dropout prevention board](./img/parts_04.jpg) |
-| ---- | ---- | ---- | ---- |
-| PCB | Stainless case | Stainless bottom plate | ProMicro dropout prevention plate |
-| ![Socket](./img/parts_05.jpg) | ![Diode](./img/parts_06.jpg) | ![Schottky barrier diode (SMD type)](./img/parts_19.jpg) | ![Schottky Barrier Diodes (SMD type)](./img/parts_20.jpg) |
-| MX Compatible Sockets | Diodes | Schottky Barrier Diodes (SMD type) | Schottky Barrier Diodes (TH type) |
-| ![Slide switch](./img/parts_08.jpg) | ![Tact switch](./img/parts_09.jpg) | ![AAA battery case](./img/parts_10.jpg) | ![12pins sprig pin header](./img/parts_11.jpg) |
-| Slide Switch | Tact Switch | AAA Battery Case | 12pins sprig pin header |
-| ![M2 spacer](./img/parts_21.jpg) | ![M2 screws](./img/parts_14.jpg) | ![PCB Support](./img/parts_22.jpg) | ![M2.6 low head screw](./img/parts_23.jpg) |
-| M2 spacers (2 each of 7mm,6.5mm,6mm) | M2 screws|PCB support | M2.6 low head screws |
-| ![M3 low head screw](./img/parts_13.jpg) | ![Cushion seal](./img/parts_15.jpg) | | |
-| M3 low head screw|cushion seal | | |
+| ![PCB](./img/parts_16.jpg) | ![Case](./img/parts_02.jpg) |
+| ---- | ---- |
+| PCB | Stainless case |
+| ![Bottom plate](./img/parts_17.jpg) | ![ProMicro dropout prevention board](./img/parts_04.jpg) |
+| Stainless bottom plate | ProMicro dropout prevention plate |
+| ![Socket](./img/parts_05.jpg) | ![Diode](./img/parts_06.jpg) |
+| MX Compatible Sockets | Diodes |
+| ![Schottky barrier diode (SMD type)](./img/parts_19.jpg) | ![Schottky Barrier Diodes (SMD type)](./img/parts_20.jpg) |
+| Schottky Barrier Diodes (SMD type) | Schottky Barrier Diodes (TH type) |
+| ![Slide switch](./img/parts_08.jpg) | ![Tact switch](./img/parts_09.jpg) |
+| Slide Switch | Tact Switch |
+| ![AAA battery case](./img/parts_10.jpg) | ![12pins sprig pin header](./img/parts_11.jpg) |
+| AAA Battery Case | 12pins sprig pin header |
+| ![M2 spacer](./img/parts_21.jpg) | ![M2 screws](./img/parts_14.jpg) |
+| M2 spacers (2 each of 7mm,6.5mm,6mm) | M2 screws|
+| ![PCB Support](./img/parts_22.jpg) | ![M2.6 low head screw](./img/parts_23.jpg) |
+| PCB support | M2.6 low head screws |
+| ![M3 low head screw](./img/parts_13.jpg) | ![Cushion seal](./img/parts_15.jpg) |
+| M3 low head screw|cushion seal |
 
 ### Parts to be prepared separately
 - ProMicro or ProMicro compatible: 1
@@ -295,7 +303,7 @@ The side where the component is to be installed is the side marked "Rect44 v1.2"
 ### Diode for key switch
 The included diodes are surface-mount (SMD) type, but this board also allows through-hole (TH) type diodes to be mounted, so if you are not confident about mounting surface-mount type diodes, you can obtain through-hole type diodes separately and install them. For the diode to be used, I recommend "1N4148" which is easy to get.
 
-| ![diode_01](./img/diode_01.jpg) |
+| <img src="./img/diode_01.jpg" alt="Diode for key switch" width="640"> |
 | ---- |
 | Solder the diode mark on the board in the direction of the diode line, matching the position of the bar with the direction in which the diode line is located. Pre-solder one pad in advance and solder the other side after soldering to that pad. |
 
@@ -303,10 +311,10 @@ The included diodes are surface-mount (SMD) type, but this board also allows thr
 Both surface mount (SMD) and through-hole (TH) types are enclosed as accessory parts, but only one of them is used. If you are not good at soldering the surface mount type, use the through-hole type.
 The method is the same as that of the diodes for keyswitches. Also, for better workability, be sure to install them before the battery case.
 
-| ![Schottky barrier diode (SMD type)](./img/parts_19.jpg) | ![SBD soldering example (SMD type)](./img/sbd_03.jpg) |
+| <img src="./img/parts_19.jpg" alt="Schottky barrier diode (SMD type)" width="320"> | <img src="./img/sbd_03.jpg" alt="SBD soldering example (SMD type)" width="320"> |
 | ---- | ---- |
 | The package is very similar to that of the keyswitch diode, but the one with the white dot is the Schottky barrier diode. | The pad marked with "SBD1" in silk between the battery box and the controller mounting area is the mounting position. Solder the diode with the line indicating the diode's cathode facing the ProMicro mounting area. |
-| ![Schottky barrier diode (TH type)](./img/parts_20.jpg) | ![SBD soldering example (TH type)](./img/sbd_04.jpg) |
+| <img src="./img/parts_20.jpg" alt="Schottky barrier diode (TH type)" width="320"> | <img src="./img/sbd_04.jpg" alt="SBD soldering example (TH type)" width="320"> |
 | Schottky barrier diode (TH type) | The pad marked with SBD1 and silk between the battery box and the controller mounting area is the mounting location. Solder the line indicating the cathode of the diode toward the ProMicro mounting area. |
 
 
